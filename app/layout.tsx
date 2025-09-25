@@ -11,9 +11,13 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: "Project Documentation Template",
-  description: "A beautiful, minimal documentation template for showcasing projects",
-    generator: 'v0.app'
+  title: "Serverless Architectures on AWS",
+  description: "Provisioning and Managing Serverless Architectures on AWS",
+    generator: 'Dickson Ankamah',
+    applicationName: 'Project Documentation Template',
+    keywords: ['Documentation', 'Template', 'Next.js', 'React', 'Tailwind CSS'],
+    authors: [{ name: 'Dickson Ankamah', url: 'https://dicksonankamah.com' }],
+    creator: 'Dickson Ankamah',
 }
 
 export default function RootLayout({

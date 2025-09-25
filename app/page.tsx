@@ -5,6 +5,8 @@ import { ProjectSection } from "@/components/project-section"
 import { ContactSection } from "@/components/contact-section"
 import { ImageModal } from "@/components/image-modal"
 import { useState } from "react"
+import { Image } from "@/components/custom-image"
+
 
 const sections = [
   { id: "step-1", title: "Step 1: Setup" },
@@ -68,10 +70,12 @@ export default function Home() {
             </div>
 
             <div className="bg-card border border-border rounded-lg p-1 mb-6">
-              <img
-                src="/net-topology.png"
-                alt="AWS Console Setup"
-                className="w-full h-auto rounded cursor-pointer hover:opacity-90 transition-opacity"
+              <Image
+                src={"/net-topology.png" }
+                alt={"AWS Console Setup"}
+                className={"w-full h-auto rounded cursor-pointer hover:opacity-90 transition-opacity"}
+                width={977}
+                height={414}
                 onClick={() => setSelectedImage("/net-topology.png")}
               />
             </div>
