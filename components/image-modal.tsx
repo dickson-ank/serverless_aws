@@ -37,7 +37,7 @@ export function ImageModal({ src, alt, isOpen, onClose }: ImageModalProps) {
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
       onClick={onClose}
     >
-      <div className="relative max-w-[90vw] max-h-[85vh] w-full flex items-center justify-center">
+      <div className="max-w-[90vw] max-h-[90vh] flex items-center justify-center">
         <Button
           variant="secondary"
           size="icon"

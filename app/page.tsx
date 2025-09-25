@@ -20,12 +20,11 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       <Navigation sections={sections} />
-
       <main className="pt-16">
         {/* Hero Section */}
         <section className="gradient-bg py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 text-balance">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 text-balance">
               AWS Serverless Architecture Guide
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground mb-8 text-pretty max-w-2xl mx-auto">
@@ -70,10 +69,10 @@ export default function Home() {
 
             <div className="bg-card border border-border rounded-lg p-1 mb-6">
               <img
-                src="/project-overview-dashboard-screenshot.jpg"
+                src="/net-topology.png"
                 alt="AWS Console Setup"
                 className="w-full h-auto rounded cursor-pointer hover:opacity-90 transition-opacity"
-                onClick={() => setSelectedImage("/project-overview-dashboard-screenshot.jpg")}
+                onClick={() => setSelectedImage("/net-topology.png")}
               />
             </div>
 
