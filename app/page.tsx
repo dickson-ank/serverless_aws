@@ -45,7 +45,7 @@ export default function Home() {
 
         {/* Project Sections */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 space-y-16 sm:space-y-20">
-          <ProjectSection id="step-1" title="Step 17: Initial Setup & Prerequisites" onImageClick={setSelectedImage}>
+          <ProjectSection id="step-1" title="Introduction: Initial Setup & Prerequisites" onImageClick={setSelectedImage}>
             <p className="text-muted-foreground mb-6 text-pretty text-sm sm:text-base">
               Before we begin provisioning our serverless architecture, we need to set up our development environment
               and ensure we have all the necessary prerequisites in place.
