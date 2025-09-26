@@ -6,5 +6,5 @@ export const Image: React.FC<ImageProps> = ({ src, ...rest }) => {
   const normalizedSrc =
     typeof src === 'string' && src.startsWith('/') ? src.slice(1) : src;
 
-  return <NextImage src={`${basePath}${normalizedSrc}`} {...rest} />;
+  return <NextImage src={`${basePath}/${normalizedSrc}`} {...rest} />;
 };

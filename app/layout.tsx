@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     generator: 'Dickson Ankamah',
     applicationName: 'Project Documentation Template',
     keywords: ['Documentation', 'Template', 'Next.js', 'React', 'Tailwind CSS'],
-    authors: [{ name: 'Dickson Ankamah', url: 'https://dicksonankamah.com' }],
+    authors: [{ name: 'Dickson Ankamah'}],
     creator: 'Dickson Ankamah',
 }
 

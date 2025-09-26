@@ -26,32 +26,31 @@ export function ContactSection() {
           <div className="relative">
             <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary/20 shadow-lg">
               <img
-                src="/professional-headshot-of-dickson-ankamah.jpg"
+                src="./profilepic.jpg"
                 alt="Dickson Ankamah"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-green-500 rounded-full border-4 border-background"></div>
           </div>
 
           {/* Name and Title */}
           <div className="text-center">
             <h3 className="text-2xl font-bold text-foreground mb-2">Dickson Ankamah</h3>
-            <p className="text-muted-foreground">Full Stack Developer & Project Creator</p>
+            <p className="text-muted-foreground">Cloud Engineer</p>
           </div>
 
           {/* Contact Methods */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full max-w-2xl">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full max-w-3xl">
             <Button
               variant="outline"
               size="lg"
               className="flex items-center space-x-3 p-4 sm:p-6 h-auto gradient-card border-border hover:bg-accent/50 transition-all duration-200 bg-transparent"
-              onClick={() => window.open("mailto:dickson.ankamah@example.com", "_blank")}
+              onClick={() => window.open("mailto:dicksonank@gmail.com", "_blank")}
             >
               <Mail className="h-5 w-5 text-primary flex-shrink-0" />
-              <div className="text-left min-w-0">
+              <div className="text-left min-w-4">
                 <div className="font-medium text-foreground text-sm sm:text-base">Email</div>
-                <div className="text-xs sm:text-sm text-muted-foreground truncate">dickson.ankamah@example.com</div>
+                <div className="text-xs sm:text-xs text-muted-foreground truncate">dicksonank@gmail.com</div>
               </div>
             </Button>
 
@@ -59,7 +58,7 @@ export function ContactSection() {
               variant="outline"
               size="lg"
               className="flex items-center space-x-3 p-4 sm:p-6 h-auto gradient-card border-border hover:bg-accent/50 transition-all duration-200 bg-transparent"
-              onClick={() => window.open("https://linkedin.com/in/dicksonankamah", "_blank")}
+              onClick={() => window.open("https://linkedin.com/in/dickson-ank", "_blank")}
             >
               <Linkedin className="h-5 w-5 text-primary flex-shrink-0" />
               <div className="text-left">
@@ -72,12 +71,12 @@ export function ContactSection() {
               variant="outline"
               size="lg"
               className="flex items-center space-x-3 p-4 sm:p-6 h-auto gradient-card border-border hover:bg-accent/50 transition-all duration-200 bg-transparent"
-              onClick={() => window.open("https://wa.me/1234567890", "_blank")}
+              onClick={() => window.open("https://wa.me/233547407384", "_blank")}
             >
               <WhatsAppIcon className="h-5 w-5 text-primary flex-shrink-0" />
               <div className="text-left">
                 <div className="font-medium text-foreground text-sm sm:text-base">WhatsApp</div>
-                <div className="text-xs sm:text-sm text-muted-foreground">Quick chat</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">Message me</div>
               </div>
             </Button>
           </div>

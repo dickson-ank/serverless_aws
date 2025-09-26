@@ -5,7 +5,7 @@ import { ProjectSection } from "@/components/project-section"
 import { ContactSection } from "@/components/contact-section"
 import { ImageModal } from "@/components/image-modal"
 import { useState } from "react"
-import { Image } from "@/components/custom-image"
+import { Image } from "@/components/custom-image" 
 
 
 const sections = [
@@ -29,22 +29,16 @@ export default function Home() {
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 text-balance">
               AWS Serverless Architecture Guide
             </h1>
-            <p className="text-lg sm:text-xl text-muted-foreground mb-8 text-pretty max-w-2xl mx-auto">
+            <p className="text-sm sm:text-lg text-muted-foreground mb-8 text-pretty max-w-2xl mx-auto">
               A comprehensive step-by-step guide to provisioning and deploying a serverless architecture on AWS. Follow
               along with detailed instructions and screenshots.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button
-                onClick={() => document.getElementById("step-1")?.scrollIntoView({ behavior: "smooth" })}
-                className="px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors text-sm sm:text-base"
-              >
-                Start Guide
-              </button>
+            <div className="px-10 flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 onClick={() => window.open("https://github.com/yourusername/aws-serverless-guide", "_blank")}
-                className="px-6 py-3 bg-secondary text-secondary-foreground rounded-lg font-medium hover:bg-secondary/80 transition-colors text-sm sm:text-base"
+                className="px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors text-sm sm:text-base"
               >
-                View Code
+                View CloudFormation Code 
               </button>
             </div>
           </div>
@@ -52,7 +46,7 @@ export default function Home() {
 
         {/* Project Sections */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 space-y-16 sm:space-y-20">
-          <ProjectSection id="step-1" title="Step 1: Initial Setup & Prerequisites" onImageClick={setSelectedImage}>
+          <ProjectSection id="step-1" title="Step 17: Initial Setup & Prerequisites" onImageClick={setSelectedImage}>
             <p className="text-muted-foreground mb-6 text-pretty text-sm sm:text-base">
               Before we begin provisioning our serverless architecture, we need to set up our development environment
               and ensure we have all the necessary prerequisites in place.
@@ -70,13 +64,13 @@ export default function Home() {
             </div>
 
             <div className="bg-card border border-border rounded-lg p-1 mb-6">
-              <Image
-                src={"/net-topology.png" }
+              <img
+                src={"./net-topology.png" }
                 alt={"AWS Console Setup"}
                 className={"w-full h-auto rounded cursor-pointer hover:opacity-90 transition-opacity"}
-                width={977}
-                height={414}
-                onClick={() => setSelectedImage("/net-topology.png")}
+                // width={977}
+                // height={414}
+                onClick={() => setSelectedImage("./net-topology.png")}
               />
             </div>
 
@@ -110,10 +104,10 @@ export default function Home() {
 
               <div className="bg-card border border-border rounded-lg p-1">
                 <img
-                  src="/feature-one-interface.jpg"
+                  src="./feature-one-interface.jpg"
                   alt="Lambda Function Creation"
                   className="w-full h-auto rounded cursor-pointer hover:opacity-90 transition-opacity"
-                  onClick={() => setSelectedImage("/feature-one-interface.jpg")}
+                  onClick={() => setSelectedImage("./feature-one-interface.jpg")}
                 />
               </div>
             </div>
@@ -142,10 +136,10 @@ export default function Home() {
 
             <div className="bg-card border border-border rounded-lg p-1">
               <img
-                src="/feature-two-dashboard.jpg"
+                src="./feature-two-dashboard.jpg"
                 alt="API Gateway Configuration"
                 className="w-full h-auto rounded cursor-pointer hover:opacity-90 transition-opacity"
-                onClick={() => setSelectedImage("/feature-two-dashboard.jpg")}
+                onClick={() => setSelectedImage("./feature-two-dashboard.jpg")}
               />
             </div>
           </ProjectSection>
@@ -171,18 +165,18 @@ export default function Home() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
                 <div className="bg-card border border-border rounded-lg p-1">
                   <img
-                    src="/feature-three-analytics.jpg"
+                    src="./feature-three-analytics.jpg"
                     alt="DynamoDB Setup"
                     className="w-full h-auto rounded cursor-pointer hover:opacity-90 transition-opacity"
-                    onClick={() => setSelectedImage("/feature-three-analytics.jpg")}
+                    onClick={() => setSelectedImage("./feature-three-analytics.jpg")}
                   />
                 </div>
                 <div className="bg-card border border-border rounded-lg p-1">
                   <img
-                    src="/terminal-installation-process.jpg"
+                    src="./terminal-installation-process.jpg"
                     alt="S3 Configuration"
                     className="w-full h-auto rounded cursor-pointer hover:opacity-90 transition-opacity"
-                    onClick={() => setSelectedImage("/terminal-installation-process.jpg")}
+                    onClick={() => setSelectedImage("./terminal-installation-process.jpg")}
                   />
                 </div>
               </div>
@@ -215,18 +209,18 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
                 <div className="bg-card border border-border rounded-lg p-1">
                   <img
-                    src="/usage-example-before.jpg"
+                    src="./usage-example-before.jpg"
                     alt="Before Deployment"
                     className="w-full h-auto rounded cursor-pointer hover:opacity-90 transition-opacity"
-                    onClick={() => setSelectedImage("/usage-example-before.jpg")}
+                    onClick={() => setSelectedImage("./usage-example-before.jpg")}
                   />
                 </div>
                 <div className="bg-card border border-border rounded-lg p-1">
                   <img
-                    src="/usage-example-after.jpg"
+                    src="./usage-example-after.jpg"
                     alt="After Deployment"
                     className="w-full h-auto rounded cursor-pointer hover:opacity-90 transition-opacity"
-                    onClick={() => setSelectedImage("/usage-example-after.jpg")}
+                    onClick={() => setSelectedImage("./usage-example-after.jpg")}
                   />
                 </div>
               </div>
