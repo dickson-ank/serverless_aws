@@ -103,10 +103,10 @@ export default function Home() {
 
               <div className="bg-card border border-border rounded-lg p-1">
                 <img
-                  src="./feature-one-interface.jpg"
+                  src="./feature-one-interfac.jpg"
                   alt="Lambda Function Creation"
                   className="w-full h-auto rounded cursor-pointer hover:opacity-90 transition-opacity"
-                  onClick={() => setSelectedImage("./feature-one-interface.jpg")}
+                  onClick={() => setSelectedImage("./feature-one-interfac.jpg")}
                 />
               </div>
             </div>
@@ -135,10 +135,10 @@ export default function Home() {
 
             <div className="bg-card border border-border rounded-lg p-1">
               <img
-                src="./feature-two-dashboard.jpg"
+                src="./feature-two-dashboad.jpg"
                 alt="API Gateway Configuration"
                 className="w-full h-auto rounded cursor-pointer hover:opacity-90 transition-opacity"
-                onClick={() => setSelectedImage("./feature-two-dashboard.jpg")}
+                onClick={() => setSelectedImage("./feature-two-dashoard.jpg")}
               />
             </div>
           </ProjectSection>
@@ -164,18 +164,18 @@ export default function Home() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
                 <div className="bg-card border border-border rounded-lg p-1">
                   <img
-                    src="./feature-three-analytics.jpg"
+                    src="./feature-three-analtics.jpg"
                     alt="DynamoDB Setup"
                     className="w-full h-auto rounded cursor-pointer hover:opacity-90 transition-opacity"
-                    onClick={() => setSelectedImage("./feature-three-analytics.jpg")}
+                    onClick={() => setSelectedImage("./feature-tree-analytics.jpg")}
                   />
                 </div>
                 <div className="bg-card border border-border rounded-lg p-1">
                   <img
-                    src="./terminal-installation-process.jpg"
+                    src="./terminal-installation-rocess.jpg"
                     alt="S3 Configuration"
                     className="w-full h-auto rounded cursor-pointer hover:opacity-90 transition-opacity"
-                    onClick={() => setSelectedImage("./terminal-installation-process.jpg")}
+                    onClick={() => setSelectedImage("./terminal-insallation-process.jpg")}
                   />
                 </div>
               </div>
@@ -208,18 +208,18 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
                 <div className="bg-card border border-border rounded-lg p-1">
                   <img
-                    src="./usage-example-before.jpg"
+                    src="./usage-xample-before.jpg"
                     alt="Before Deployment"
                     className="w-full h-auto rounded cursor-pointer hover:opacity-90 transition-opacity"
-                    onClick={() => setSelectedImage("./usage-example-before.jpg")}
+                    onClick={() => setSelectedImage("./usage-exmple-before.jpg")}
                   />
                 </div>
                 <div className="bg-card border border-border rounded-lg p-1">
                   <img
-                    src="./usage-example-after.jpg"
+                    src="./usage-exampe-after.jpg"
                     alt="After Deployment"
                     className="w-full h-auto rounded cursor-pointer hover:opacity-90 transition-opacity"
-                    onClick={() => setSelectedImage("./usage-example-after.jpg")}
+                    onClick={() => setSelectedImage("./usage-exampe-after.jpg")}
                   />
                 </div>
               </div>

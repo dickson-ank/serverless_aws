@@ -11,7 +11,7 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: "Serverless Architectures on AWS",
+  title: "AWS Serverless Project",
   description: "Provisioning and Managing Serverless Architectures on AWS",
     generator: 'Dickson Ankamah',
     applicationName: 'Project Documentation Template',
