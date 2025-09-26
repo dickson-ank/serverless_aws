@@ -5,7 +5,6 @@ import { ProjectSection } from "@/components/project-section"
 import { ContactSection } from "@/components/contact-section"
 import { ImageModal } from "@/components/image-modal"
 import { useState } from "react"
-import { Image } from "@/components/custom-image" 
 
 
 const sections = [
